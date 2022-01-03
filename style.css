@@ -1,8 +1,10 @@
 body{
     background-color: black;
+    
 }
 canvas{
     background-color: gray;
+    background-image: url("200.gif");
     position: absolute;
     top: 0px;
     left: 0px;
@@ -15,3 +17,15 @@ canvas{
     0 0 100px 60px blue,
     0 0 140px 90px blue;
 }
+
+.main-menu{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    color: blue;
+    background: url("t4u4qd6.gif");
+  }
+ 
+  .hidden{
+    display:none;
+  }
