@@ -157,9 +157,8 @@ const char = {
             if(isColliding(char,shape)){
                 console.log("its colliding")
             } else if(shape.x < char.x){
-                console.log(shape.x)
              shapesArry.splice(i,1)
-             lives-=i
+             lives-=i;
              if(lives<=0) {
             alert("Game Over")
             document.location.reload();
