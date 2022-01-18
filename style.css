@@ -22,8 +22,9 @@ canvas{
     display:flex;
     flex-direction:column;
     align-items:center;
-    color: blue;
+    color: wheat;
     background: url("t4u4qd6.gif");
+    font-size: 25px;
   }
  
   .hidden{
